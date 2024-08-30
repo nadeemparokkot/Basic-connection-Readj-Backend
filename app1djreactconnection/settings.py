@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True  # This allows all domains to access your Django app. For production, restrict this.
 
 ROOT_URLCONF = 'app1djreactconnection.urls'
 
